@@ -1,39 +1,46 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entertainment App</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
     <header>
-      <h1>Entertainment App</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Movies</a></li>
-          <li><a href="#">TV Shows</a></li>
-          <li><a href="#">Genres</a></li>
-          <li><a href="#">Languages</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div class="page-header" >
+        <div class="title">
+            <p> Entertainment App </p> 
+        </div>
+        
+        <input type="checkbox" id="toggle-menu">
+        <label class="menu-icon" for="toggle-menu">
+            <a id="menu-icon">
+                <i class="fa fa-bars"></i>
+            </a>
+        </label>
+        
+        <div id="navigation-bar" class="nav-bar">
+            <a class="active"> Home </a>
+            <a> Movies </a>
+            <a> TV Shows  </a>
+            <a> Languagues </a>
+        </div>    
 
-    <main>
-      <section class="movies">
+    </div>
+   </header>
+   <main>
+    <section class="movies">
         <h2>Movies</h2>
 
         <!-- Placeholder image for movies -->
         <img src="https://via.placeholder.com/150x200" alt="Movie Poster">
-
+        <img src="https://via.placeholder.com/150x200" alt="Movie Poster">
+        <img src="https://via.placeholder.com/150x200" alt="Movie Poster">
+        <img src="https://via.placeholder.com/150x200" alt="Movie Poster">
       </section>
-
-      <!-- Add more sections for TV shows and other content -->
-
-    </main>
-
-    <footer>
-      <!-- Footer content goes here -->
-    </footer>
-
-  </body>
+   </main>
+</body>
 </html>
