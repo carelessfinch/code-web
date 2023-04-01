@@ -67,6 +67,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    background: linear-gradient(to bottom, #000000, #222222);
 }
 
 main {
@@ -99,12 +100,10 @@ main {
         width: 100%;
         background-color: var(--bgcolor);
         text-align: center;
+        z-index: 100;
         
 
     }
-
-  
-    
 
     .nav-bar a {
         /* visibility: hidden; */
