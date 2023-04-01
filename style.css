@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 :root {
     --bgcolor: #242582;
 }
@@ -22,6 +24,7 @@
     align-self: center;
     /* font-size: 1.2rem; */
     margin-left: 1.2rem;
+    font-family: 'Lobster', cursive;
 }
 
 .nav-bar {
@@ -37,6 +40,7 @@
     /* margin-right: 2rem; */
     padding: 1.3rem;
     cursor: pointe  r;
+    font-family: 'Lobster', cursive;
 
 
 }
@@ -99,6 +103,7 @@ main {
         width: 100%;
         background-color: var(--bgcolor);
         text-align: center;
+        
         
 
     }
