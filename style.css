@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
 :root {
     --bgcolor: #242582;
@@ -15,7 +15,9 @@
     /* height: 5%; */
     /* overflow: hidden; */
     padding: 1.3rem;
-
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
     display: flex;
     justify-content: space-between;
 }
@@ -24,7 +26,7 @@
     align-self: center;
     /* font-size: 1.2rem; */
     margin-left: 1.2rem;
-    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav-bar {
@@ -40,7 +42,7 @@
     /* margin-right: 2rem; */
     padding: 1.3rem;
     cursor: pointe  r;
-    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
 
 
 }
@@ -77,6 +79,14 @@ body {
 main {
 
     flex: 1 0 auto;
+}
+
+h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 1.2rem;
+    margin-top: 2%;
+    margin-bottom: 1%;
 }
 
 .footer {
