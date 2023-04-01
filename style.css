@@ -140,4 +140,33 @@ h2 {
         display: block;
     }
 
+    .movies > img {
+        width: 95% !important;
+        height: 50% !important;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-left: 2%;
+    }
+    
+    .tv-shows > img {
+        width: 95% !important;
+        height: 50% !important;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-left: 2%;
+    }
+}
+
+.movies > img {
+    width: 25%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.tv-shows > img {
+    width: 25%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 10px;
 }
